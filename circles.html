@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Circles</title>
-	<script type="text/javascript" src="paper-full.js"></script>
+	<script type="text/javascript" src="paper-full.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="circles.css">
 
 	<script type="text/paperscript" canvas="myCanvas">
@@ -18,10 +18,11 @@
 	path.lineTo(start + [ 500, -50 ]);
 
 	var myCircle = new Path.Circle(new Point(100, 70), 10);
-	myCircle.fillColor = 'black';
+	myCircle.fillColor = 'purple';
 
-	var circle2 = new Path.Circle(new Point(50,50) 300);
-	circle2.fillColor = "purple";
+	var myCircle2 = new Path.Circle(new Point(200, 50), 15);
+	myCircle2.fillColor = "green";
+
 </script>
 </head>
 <body>
