@@ -5,8 +5,13 @@
 	<script type="text/javascript" src="paper-full.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.28/howler.js"></script>
 	<link rel="stylesheet" type="text/css" href="circles.css">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 
+	<body>
+				<h1> Press a letter key to begin </h1>
 	<script type="text/paperscript" canvas="myCanvas">
+
+
 		var keyData = {
 			q: {
 				sound: new Howl({
@@ -169,6 +174,7 @@
 		var circles = [];
 
 		function onKeyDown(event) {
+
 			if(keyData[event.key]){
 				var maxPoint = new Point(view.size.width, view.size.height);
 				var randomPoint = Point.random();
@@ -193,7 +199,6 @@
     }
 	</script>
 </head>
-<body>
 	<canvas id="myCanvas" resize></canvas>
 </body>
 </html>
