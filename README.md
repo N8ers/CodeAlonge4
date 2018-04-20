@@ -1,4 +1,7 @@
-This is a Pat-a-Tap clone based off of a Colt Steel course.
+Are you ready for some seizure inducing fun!? This Pat-a-Tap Clone is a part of Colt Steel's online course "The Web Developer Bootcamp". 
+I've added a directions display that disapears after the game begins and some cool background color changes inspired by another clone!
+This project uses HTML5, CSS3, JavaScript, Paper.js, and Howler.js - it also features event listeners.
+
 Click below to play!
 
 <a href="http://sheryak-pat-a-tap.surge.sh/" target="_blank">Pat-a-Tap!</a>
